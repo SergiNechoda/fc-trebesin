@@ -327,3 +327,11 @@ footer p {
         height: 240px;
     }
 }
+
+/* Zvýraznění odkazů při ovládání klávesnicí */
+nav a:focus {
+    outline: 2px solid #a3e635;
+    outline-offset: 4px;
+    border-radius: 3px;
+}
+
